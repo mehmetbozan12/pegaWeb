@@ -238,3 +238,4 @@ ModelManifest.xml
 /pegakent/bin/
 /pegakent/obj/Debug/pegakent.csproj.AssemblyReference.cache
 /pegakent/bin/roslyn/csc.exe
+/.vs/pegakent/v17/.suo
