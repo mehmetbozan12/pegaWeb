@@ -235,3 +235,6 @@ _Pvt_Extensions
 GeneratedArtifacts/
 ModelManifest.xml
 
+/pegakent/bin/
+/pegakent/obj/Debug/pegakent.csproj.AssemblyReference.cache
+/pegakent/bin/roslyn/csc.exe
