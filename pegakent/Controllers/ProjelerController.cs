@@ -6,24 +6,24 @@ using System.Web.Mvc;
 
 namespace pegakent.Controllers
 {
-    public class devamedenprojelerController : Controller
+    public class ProjelerController : Controller
     {
         // GET: devamedenprojeler
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult pegalifekonutlari()
+        public ActionResult PegalifeKonutlari()
         {
             return View();
         }
 
-        public ActionResult pegapremiumkonutlari()
+        public ActionResult PegapremiumKonutlari()
         {
             return View();
         }
 
-        public ActionResult pegaloftkonutlari()
+        public ActionResult PegaloftKonutlari()
         {
             return View();
         }

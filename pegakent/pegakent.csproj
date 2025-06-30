@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -196,7 +197,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\devamedenprojelerController.cs" />
+    <Compile Include="Controllers\ProjelerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -890,9 +891,10 @@
     <Content Include="Views\Home\iletisim.cshtml" />
     <Content Include="Views\Home\tamamlananprojeler.cshtml" />
     <Content Include="Views\Home\teklifal.cshtml" />
-    <Content Include="Views\devamedenprojeler\pegalifekonutlari.cshtml" />
-    <Content Include="Views\devamedenprojeler\pegapremiumkonutlari.cshtml" />
-    <Content Include="Views\devamedenprojeler\pegaloftkonutlari.cshtml" />
+    <Content Include="Views\Projeler\pegalifekonutlari.cshtml" />
+    <Content Include="Views\Projeler\pegapremiumkonutlari.cshtml" />
+    <Content Include="Views\Projeler\pegaloftkonutlari.cshtml" />
+    <Content Include="Views\Home\projeler.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

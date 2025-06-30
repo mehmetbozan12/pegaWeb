@@ -38,6 +38,12 @@ namespace pegakent.Controllers
 
             return View();
         }
+        public ActionResult projeler()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
         public ActionResult teklifal()
         {
             ViewBag.Message = "Your contact page.";
