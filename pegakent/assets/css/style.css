@@ -15266,14 +15266,16 @@ body.sal-disabled [data-sal|=flip] {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
-.main-header .nav-main ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
+    .main-header .nav-main ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+      
+    }
 .main-header .nav-main ul li {
   margin: 0;
   margin-right: 36px;
@@ -15300,9 +15302,11 @@ body.sal-disabled [data-sal|=flip] {
   background: var(--color-primary);
   transition: var(--transition);
 }
-.main-header .nav-main ul li a:hover {
-  color: var(--color-primary);
-}
+    .main-header .nav-main ul li a:hover {
+        color: #fff; /* Yazý rengi beyaz */
+        background: #002771; /* Arka plan rengi */
+    }
+
 .main-header .nav-main ul li a:hover::after {
   width: 100%;
 }
@@ -23006,7 +23010,7 @@ p.disc.banner-para {
 .rts-business-case-s-2.style-home-7S::after {
   content: "";
   position: absolute;
-  background-image: url(../images/business-case/icon/shape-2.png);
+  /*background-image: url(../images/business-case/icon/shape-2.png);*/
   height: 100%;
   width: 100%;
   top: -64%;
@@ -23024,7 +23028,7 @@ p.disc.banner-para {
 .rts-business-case-s-2.style-home-7S .inner span::after {
   position: absolute;
   content: "";
-  background-image: url(../images/business-case/icon/03.png);
+ /* background-image: url(../images/business-case/icon/03.png);*/
   height: 58px;
   width: 58px;
   bottom: -85px;
@@ -27843,7 +27847,8 @@ p.disc.banner-para {
   right: -8px;
 }
 .rts-blog-area-style-seven .thumbnail .badge span {
-  background: #B00F0F;
+  /*background: #B00F0F;*/
+  background: var(--color-primary-5);
   border-radius: 20px 0px;
   font-weight: 500;
   font-size: 16px;
@@ -27883,8 +27888,9 @@ p.disc.banner-para {
   }
 }
 .rts-blog-area-style-seven .content-inner a.rts-read-more i {
-  background: #B00F0F;
-  color: #fff;
+    /*  background: #B00F0F;*/
+    background: var(--color-primary-5);
+    color: #fff;
 }
 
 .rts-blog-area.eight .mySwiperh2_blog {
@@ -29258,7 +29264,10 @@ p.disc {
   display: flex;
   align-items: center;
   padding: 40px;
-  background-color: var(--color-primary-alta);
+  background-color: var(--color-primary-5);
+  opacity:0.5;
+  color:#fff;
+ /* background-color: var(--color-primary-alta);*/
 }
 @media only screen and (max-width: 767px) {
   .single-contact-one-inner .content {
