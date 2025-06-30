@@ -29265,7 +29265,7 @@ p.disc {
   align-items: center;
   padding: 40px;
   background-color: var(--color-primary-5);
-  opacity:0.5;
+  opacity:1;
   color:#fff;
  /* background-color: var(--color-primary-alta);*/
 }
@@ -29275,16 +29275,19 @@ p.disc {
   }
 }
 .single-contact-one-inner .content .icone {
-  margin-right: 20px;
+    margin-right: 20px;
+    filter: brightness(0) invert(1);
 }
 .single-contact-one-inner .content .info span {
   margin-bottom: 0;
-  color: var(--color-primary);
+  color:#fff;
+ /* color: var(--color-primary);*/
   font-weight: 500;
 }
 .single-contact-one-inner .content .info a h5 {
   margin-bottom: 0;
   transition: 0.3s;
+  color:#fff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-contact-one-inner .content .info a h5 {
@@ -29296,9 +29299,9 @@ p.disc {
     font-size: 18px;
   }
 }
-.single-contact-one-inner .content .info a:hover h5 {
-  color: var(--color-primary);
-}
+/*.single-contact-one-inner .content .info a:hover h5 {
+ color: var(--color-primary);
+}*/
 
 .working-process-bg {
   background-image: url(../images/working-step/bg-01.jpg);
@@ -30001,7 +30004,9 @@ p.disc {
   color: var(--color-primary-6);
 }
 .footer-one-single-wized.seven .quick-link-inner .links li a:hover {
-  color: var(--color-primary-5);
+    /*  color: var(--color-primary-5);*/
+    color: #fff;
+    
 }
 .footer-one-single-wized.seven .quick-link-inner .links li a::after {
   background: var(--color-primary-5);
@@ -30031,6 +30036,7 @@ p.disc {
   list-style: none;
   padding-left: 0;
   margin: 0;
+
 }
 .footer-one-single-wized .quick-link-inner .links.margin-left-70 {
   margin-left: 70px;
@@ -30063,13 +30069,16 @@ p.disc {
   margin-right: 12px;
   transition: 0.3s;
 }
-.footer-one-single-wized .quick-link-inner .links li a:hover {
-  color: var(--color-primary);
-}
-.footer-one-single-wized .quick-link-inner .links li a:hover::after {
-  position: absolute;
-  width: 76%;
-}
+    .footer-one-single-wized .quick-link-inner .links li a:hover {
+        /* color: var(--color-primary)*/
+           color: #fff;
+       
+    }
+    .footer-one-single-wized .quick-link-inner .links li a:hover::after {
+        position: absolute;
+        width: 76%;
+
+    }
 .footer-one-single-wized .quick-link-inner .links li a:hover i {
   color: #fff;
 }
