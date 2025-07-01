@@ -447,7 +447,10 @@
     <Content Include="assets\images\logo\logo-4.svg" />
     <Content Include="assets\images\logo\logo-5.1.svg" />
     <Content Include="assets\images\logo\logo-5.svg" />
+    <Content Include="assets\images\logo\Pega Kent.png" />
     <Content Include="assets\images\logo\pegakentlogo.png" />
+    <Content Include="assets\images\logo\PegaNewBahar.png" />
+    <Content Include="assets\images\logo\PegaRenkli.png" />
     <Content Include="assets\images\not optimize\01.svg" />
     <Content Include="assets\images\pricing\bg-01.jpg" />
     <Content Include="assets\images\pricing\bg-02.jpg" />
